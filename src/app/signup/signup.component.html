@@ -1,0 +1,18 @@
+
+
+
+<form action="action_page.php" method="post">
+  <div class="signup">
+  <h1>signUp</h1>
+    <form method="post">
+        <input type="text" name="u" placeholder="Username" required="required" />
+        <input type="password" name="p" placeholder="Password" required="required" />
+		    <input type="password" name="p" placeholder="Confirm Password" required="required" />
+        <button type="submit" class="btn_s btn-primary btn-block btn-large">Sign in</button>
+		    <button type="submit" class="btn_c btn-primary btn-block btn-large" [routerLink]="['/home']" >Cancel</button>
+    </form>
+
+</div>
+   
+</form>
+ <router-outlet></router-outlet>
